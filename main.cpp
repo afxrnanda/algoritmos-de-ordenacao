@@ -148,7 +148,8 @@ void mergeSort(vector<int>& vetor, int l, int r) {
 }
 
 int main() {
-    int size = 1000000;
+    // Quantidades de elementos do vetor
+    int size = 10;
 
     vector<int> originalVector;
     fillVector(originalVector, size);
