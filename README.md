@@ -1,7 +1,7 @@
 # Algoritmos de Ordenação: Comparação de Desempenho
 
 ## Descrição
-Este projeto explora as seis estruturas de ordenação mais comuns, apresentando uma análise do desempenho de cada uma ao ordenar vetores de diferentes tamanhos, variando de 10 a 1.000.000 de elementos.
+Este projeto explora 6 estruturas de ordenação, apresentando uma análise do desempenho de cada uma ao ordenar vetores de diferentes tamanhos, variando de 10 a 1.000.000 de elementos.
 
 ## Objetivos
 - Apresentar uma visão geral das estruturas de ordenação mais utilizadas.
