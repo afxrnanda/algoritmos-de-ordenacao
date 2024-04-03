@@ -26,4 +26,4 @@ Este projeto explora 6 estruturas de ordenação, apresentando uma análise do d
 
 ## Autoras
 - [M. Fernanda de A. Rodrigues](https://github.com/afxrnanda)
-- [Ismaelly Eyre Costa Gomes](https://github.com/usuario)
+- [Ismaelly Eyre Costa Gomes](https://github.com/M43lly)
