@@ -8,7 +8,7 @@ using namespace std::chrono;
 void fillVector(vector<int>& vetor, int size) {
     srand(time(0));
     for (int i = 0; i < size; i++) {
-        vetor.push_back(rand() % 100 + 1); // Números de 1 a 100
+        vetor.push_back(rand() % size + 1); // Números de 1 a 100
     }
 }
 
