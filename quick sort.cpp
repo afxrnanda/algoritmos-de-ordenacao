@@ -112,7 +112,7 @@ int main() {
         auto endMerge = high_resolution_clock::now();
         duration<double> durationMerge = endMerge - startMerge;
 
-        cout << "Tempo de execução (Merge Sort) para " << size << " elementos: " << fixed << durationMerge.count() << " segundos" << endl;
+        cout << "Tempo de execucao (Merge Sort) para " << size << " elementos: " << fixed << durationMerge.count() << " segundos" << endl;
     }
 
     return 0;
