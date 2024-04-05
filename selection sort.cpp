@@ -39,7 +39,7 @@ int main() {
         auto endSelection = high_resolution_clock::now();
         duration<double> durationSelection = endSelection - startSelection;
 
-        cout << "Tempo de execução (Selection Sort) para " << size << " elementos: " << fixed << durationSelection.count() << " segundos" << endl;
+        cout << "Tempo de execucao (Selection Sort) para " << size << " elementos: " << fixed << durationSelection.count() << " segundos" << endl;
     }
 
     return 0;
