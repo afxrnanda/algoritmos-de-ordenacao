@@ -95,24 +95,7 @@ void mergeSort(vector<int>& vetor, int l, int r) {
 }
 
 int main() {
-     vector<int> sizes = {10, 100, 1000, 10000, 30000, 50000, 70000, 100000, 300000, 500000, 700000, 1000000};
-
-    for (int size : sizes) {
-        vector<int> originalVector;
-        fillVector(originalVector, size);
-
-        vector<int> mergeSorted = originalVector;
-
-        auto startMerge = high_resolution_clock::now();
-        mergeSort(mergeSorted, 0, size - 1);
-        auto endMerge = high_resolution_clock::now();
-        duration<double> durationMerge = endMerge - startMerge;
-
-        cout << "Tempo de execução (Merge Sort) para " << size << " elementos: " << fixed << durationMerge.count() << " segundos" << endl;
-    }
-
-    return 0;
-}
+    vector<int> sizes = {10, 100, 1000, 10000, 30000, 50000, 70000, 100000, 300000, 500000, 700000, 1000000};
 
     for (int size : sizes) {
         vector<int> originalVector;
@@ -125,7 +108,7 @@ int main() {
         auto endShell = high_resolution_clock::now();
         duration<double> durationShell = endShell - startShell;
 
-        cout << "Tempo de execução (Shell Sort) para " << size << " elementos: " << fixed << durationShell.count() << " segundos" << endl;
+        cout << "Tempo de execucao (Shell Sort) para " << size << " elementos: " << fixed << durationShell.count() << " segundos" << endl;
     }
 
     return 0;
