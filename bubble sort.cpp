@@ -37,7 +37,7 @@ int main() {
         auto endBubble = high_resolution_clock::now();
         duration<double> durationBubble = endBubble - startBubble;
 
-        cout << "Tempo de execução (Bubble Sort) para " << size << " elementos: " << fixed << durationBubble.count() << " segundos" << endl;
+        cout << "Tempo de execucao (Bubble Sort) para " << size << " elementos: " << fixed << durationBubble.count() << " segundos" << endl;
     }
 
     return 0;
