@@ -39,7 +39,7 @@ int main() {
         auto endInsertion = high_resolution_clock::now();
         duration<double> durationInsertion = endInsertion - startInsertion;
 
-        cout << "Tempo de execução (Insertion Sort) para " << size << " elementos: " << fixed << durationInsertion.count() << " segundos" << endl;
+        cout << "Tempo de execucao (Insertion Sort) para " << size << " elementos: " << fixed << durationInsertion.count() << " segundos" << endl;
     }
 
     return 0;
