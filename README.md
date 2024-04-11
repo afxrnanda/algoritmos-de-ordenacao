@@ -22,7 +22,7 @@ Este projeto explora 6 estruturas de ordenação, apresentando uma análise do d
 - Os testes foram repetidos para garantir resultados consistentes.
 
 ## Resultados
-- Para acessar os resultados e conclusões da pesquisa, leia o artigo no Medium: 
+- Para acessar os resultados e conclusões da pesquisa, leia o artigo no Medium: [Algoritmos de Ordenação: Comparação de desempenho](https://medium.com/@ismaelly_eyre_/algoritmos-de-ordena%C3%A7%C3%A3o-compara%C3%A7%C3%A3o-de-desempenho-e23806adab2f)
 
 ## Autoras
 - [M. Fernanda de A. Rodrigues](https://github.com/afxrnanda)
